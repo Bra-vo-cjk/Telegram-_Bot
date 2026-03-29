@@ -14,12 +14,12 @@ from telegram.ext import (
 )
 
 # 🔑 CONFIG
-TOKEN = "YOUR_BOT_TOKEN"
-ADMIN_ID = 123456789  # your Telegram user ID
-CHANNEL_LINK = "https://t.me/your_private_channel"
+TOKEN = "8746072080:AAEyE68WihQNX2jsq-gwm1wceUob99mW2Zc"
+ADMIN_ID = 7131169808  # your Telegram user ID
+CHANNEL_LINK = "https://t.me/+9ff58gDubD5iNWJk"
 
-MPESA_NUMBER = "07XXXXXXXX"
-MPESA_NAME = "YOUR NAME"
+MPESA_NUMBER = "0798724167"
+MPESA_NAME = "JASPER NYABARO"
 
 logging.basicConfig(level=logging.INFO)
 
