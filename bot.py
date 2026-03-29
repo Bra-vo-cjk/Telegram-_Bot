@@ -1,3 +1,4 @@
+import os
 import logging
 from telegram import (
     Update,
@@ -14,7 +15,7 @@ from telegram.ext import (
 )
 
 # 🔑 CONFIG
-TOKEN = "8746072080:AAEyE68WihQNX2jsq-gwm1wceUob99mW2Zc"
+TOKEN = os.getenv("8746072080:AAEyE68WihQNX2jsq-gwm1wceUob99mW2Zc")
 ADMIN_ID = 7131169808  # your Telegram user ID
 CHANNEL_LINK = "https://t.me/+9ff58gDubD5iNWJk"
 
